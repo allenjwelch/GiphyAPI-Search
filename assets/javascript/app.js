@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   // VARIABLES
 
-  var muppetsArr = ['Kermit', 'Fozzie', 'Beaker', 'Rowlf', 'Gonzo']; 
+  var muppetsArr = ['Kermit the Frog', 'Fozzie Bear', 'Beaker', 'Rowlf the Dog', 'Gonzo', 'Rizzo the Rat', 'Bunsen Honeydew']; 
 
 
   function renderButtons() {
