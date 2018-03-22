@@ -38,14 +38,21 @@ $(document).ready(function(){
         // console.log(results); 
 
         for (i = 0; i < results.length; i++) {
+          var gifFigure = $('<figure>');
           var gifImg = $("<img>");
           gifImg.addClass('image'); 
           gifImg.attr('src', results[i].images.original_still.url);
           gifImg.attr('data-animate', results[i].images.original.url); 
           gifImg.attr('data-still', results[i].images.original_still.url); 
+          gifImg.attr('rating', results[i].rating); 
           gifImg.attr('data-state', 'still'); 
+          var rating = results[i].rating; 
           // console.log(gifImg); 
-          $('.gifImages').prepend(gifImg); 
+          var gifCaption = $('<figcaption>'); 
+          gifCaption.text('Rating: ' + rating); 
+          gifFigure.append(gifCaption); 
+          gifFigure.append(gifImg); 
+          $('.gifImages').prepend(gifFigure);  
         }
       }) // ---- END Ajax
     }); // ------ END Click
