@@ -1,6 +1,6 @@
 # GiphyAPI-Search
 
-### https://allenjwelch.github.io/GiphyAPI-Search/
+https://allenjwelch.github.io/GiphyAPI-Search/
 
 ![title image](GiphyAPI.PNG)
 
