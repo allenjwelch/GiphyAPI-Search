@@ -1,6 +1,9 @@
 # GiphyAPI-Search
 
-https://allenjwelch.github.io/GiphyAPI-Search/
+### https://allenjwelch.github.io/GiphyAPI-Search/
+
+(GiphyAPI.PNG)
+
 
 Needed: 
 - List additional metadata (title, tags, etc) for each gif in a clean and readable format.
