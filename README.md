@@ -2,7 +2,7 @@
 
 ### https://allenjwelch.github.io/GiphyAPI-Search/
 
-(GiphyAPI.PNG)
+![title image](GiphyAPI.PNG)
 
 
 Needed: 
